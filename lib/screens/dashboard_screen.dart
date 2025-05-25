@@ -24,7 +24,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   
   Future<void> postData() async {
     if (_age <= 0) {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("GABISA TAI")));
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("GABISA")));
     }
     final response = await http.post(
       Uri.parse(apiEndpoint),
