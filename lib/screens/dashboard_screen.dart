@@ -15,7 +15,7 @@ class DashboardScreen extends StatefulWidget {
 
 class _DashboardScreenState extends State<DashboardScreen> {
   Map<String, dynamic>? data;
-  String apiEndpoint = "http://10.0.2.2:5000/predict";
+  String apiEndpoint = "api_endpoint_here";
 
   double _currentWeightValue = 40;
   double _currentHeightValue = 40;
